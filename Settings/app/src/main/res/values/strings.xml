@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Settings</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+    <string name="notif_header">Notifications</string>
+    <string name="logout_header">Log Out</string>
+    <string name="haptics_header">Sound and Haptics</string>
+    <string name="about_header">About the Application</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync data periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Notif Preferences -->
+    <string name="notif_title">Enable message notifications</string>
+
+    <!-- Log Out Preferences -->
+    <string name="logout_title">Log Out of Account</string>
+    
+    <!-- Sound and Haptics Preferences -->
+    <string name="sound_title">Sound Effects</string>
+    <string name="music_title">Background Music</string>
+    <string name="haptics_title">Vibration</string>
+
+    <!-- About the App -->
+    <string name="version_title">Version 1.0</string>
+    <string name="developer_title">About the Developers</string>
+
+</resources>

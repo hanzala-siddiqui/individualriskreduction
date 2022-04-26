@@ -1,0 +1,65 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory app:title="@string/haptics_header">
+        <SwitchPreferenceCompat
+            app:key="soundfx"
+            app:title="@string/sound_title"/>
+        <SwitchPreferenceCompat
+            app:key="music"
+            app:title="@string/music_title"/>
+        <SwitchPreferenceCompat
+            app:key="haptics"
+            app:title="@string/haptics_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/notif_header">
+        <SwitchPreferenceCompat
+            app:key="notif"
+            app:title="@string/notif_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="@string/sync_title" />
+
+    <!--    <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:title="@string/attachment_title" /> -->
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory app:title="@string/about_header">
+
+        <Preference
+            app:key="version"
+            app:title="@string/version_title" />
+        <Preference
+            app:key="developerinfo"
+            app:title="@string/developer_title"/>
+
+        <!--    <ListPreference
+                app:defaultValue="reply"
+                app:entries="@array/reply_entries"
+                app:entryValues="@array/reply_values"
+                app:key="reply"
+                app:title="@string/reply_title"
+                app:useSimpleSummaryProvider="true" /> -->
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/logout_header">
+        <Preference
+            app:key="logout"
+            app:title="@string/logout_title"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
